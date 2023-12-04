@@ -136,6 +136,7 @@ inputNumber.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
     inputNumber.click();
   }
+  
 });
 
 // take the user value and call addlist function
