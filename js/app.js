@@ -141,7 +141,7 @@ inputNumber.addEventListener("keypress", (e) => {
 
 // take the user value and call addlist function
 inputNumber.addEventListener("click", function (e) {
-  if (e.target.value > 0) {
+  if (e.target.value >= 0) {
     pickWinnerBtn.removeAttribute("disabled");
     addList(e.target.value);
   } else {
